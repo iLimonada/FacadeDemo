@@ -11,9 +11,9 @@ public class Combo{
             sobremesa = new Sobremesa("Batata Frita", 7.00, "200ml");
         }
         if(escolha == 2){
-        burguer = new Burguer("BigAmerica", 22.50, 350);
-        bebida = new Bebida("Coca-Cola", 5.00, 350);
-        sobremesa = new Sobremesa("Sorvete", 7.00, "200ml");
+        burguer = new Burguer("BigAmerica", 25.50, 400);
+        bebida = new Bebida("Coca-Cola", 7.00, 500);
+        sobremesa = new Sobremesa("Sorvete", 5.00, "250ml");
         }
     }
     public void MostrarCombo(){
