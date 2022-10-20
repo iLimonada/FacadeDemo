@@ -20,6 +20,7 @@ public class Combo{
         System.out.println("Burguer: " + burguer.getDescricao() + " R$: " + burguer.getPreco() + " Tamanho: " + burguer.getGramas());
         System.out.println("Bebida: " + bebida.getDescricao() + " R$: " + bebida.getPreco() + " Tamanho: " + bebida.getMl());
         System.out.println("Sobremesa: " + sobremesa.getDescricao() + " R$: " + sobremesa.getPreco() + " Tamanho: " + sobremesa.getTamanho());
-        System.out.println("Valor do Combo: " + burguer.getPreco() * 0.80 + bebida.getPreco() * 0.70 + sobremesa.getPreco() * 0.75);
+        System.out.println("Valor do Combo: " + (burguer.getPreco() + bebida.getPreco() + sobremesa.getPreco()));
+        System.out.println("Valor do Combo com desconto: " + (burguer.getPreco() * 0.80 + bebida.getPreco() * 0.70 + sobremesa.getPreco() * 0.75));
     }
 }
